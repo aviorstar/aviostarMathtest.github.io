@@ -1,0 +1,62 @@
+body {
+	font-family: "Noto Sans", sans-serif;
+	font-size: 16px;
+
+	/* https://cssgradient.io/gradient-backgrounds/ */
+	
+    background: linear-gradient( to right, #2a4dc1, #5698e2, #935bca );
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+input {
+    margin: 5px auto 30px;
+    border: none;
+    background: #EAEAEE;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    width:256px;
+}
+
+.btnStyle {
+    border: 0;
+    border-radius: 5px;
+    background:  #7228bd;
+    color: #fff;
+    padding: 8px 16px;
+    font-size: 16px;
+}
+
+.btnStyle:hover {
+    background:  #5c199e;
+}
+
+.btnStyle:focus {
+    background:  #400c74;
+    outline: none;
+}
+
+
+b {
+    color: rgb(90, 6, 158);
+}
+
+::marker {
+    color: #ffffff;
+    
+    /* background: no-repeat 0px 20px;
+    padding-left: 20px;
+    list-style-type: none; */
+}
+
+li {
+    color: #fff;
+    list-style-position: inside;
+}
+ol {
+    padding-left: 0;
+}
