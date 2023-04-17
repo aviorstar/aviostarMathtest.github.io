@@ -9,7 +9,7 @@ body {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	height: 100vh;
+	margin-top: 50px;
 }
 
 input {
@@ -29,6 +29,7 @@ input {
     color: #fff;
     padding: 8px 16px;
     font-size: 16px;
+	margin-bottom: 50px;
 }
 
 .btnStyle:hover {
